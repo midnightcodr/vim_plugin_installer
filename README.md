@@ -27,3 +27,9 @@
 	Downloading Matchit plugin from http://www.vim.org/scripts/download_script.php?src_id=8196
 	Installing Matchit plugin to /Users/zc/.vim
 	Installation of Matchit is successful
+
+## Notes:
+	Tested working with the following OS:
+	* Mac OS X 10.7.2
+	* Ubuntu 11.10 Desktop
+	# Centos 5.4
