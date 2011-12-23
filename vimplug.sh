@@ -3,7 +3,7 @@
 # Collection is based on
 # http://www.fortystones.com/vim-plugins-web-developers-programmers/
 
-tmp_dir=~/tmp/vimplug_installer
+tmp_dir=/tmp/`mktemp -u XXXXX`.`date +%Y%m%d%H%M%S`
 dest_dir=~/.vim
 
 
@@ -16,13 +16,14 @@ downloaders=(wget curl)
 downloaders_fmts=("-N -O%s -q %s" "-s -o %s %s") 
 
 function prepare() {
+	echo "Creating temporary directory [ $tmp_dir ]"
 	[ -d $tmp_dir ] || mkdir -p $tmp_dir
 	[ -d $dest_dir ] || mkdir -p $dest_dir
 }
 
 function cleanup() {
-	echo "Please run the following command if you don't need $tmp_dir anymore."
-	echo "rm -rf $tmp_dir"
+	echo "Removing temporary directory $tmp_dir"
+	rm -rf $tmp_dir
 }
 
 function install() {
