@@ -32,4 +32,4 @@
 	Tested working with the following OS:
 	* Mac OS X 10.7.2
 	* Ubuntu 11.10 Desktop
-	# Centos 5.4
+	* Centos 5.4
