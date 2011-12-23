@@ -3,7 +3,7 @@
 # Collection is based on
 # http://www.fortystones.com/vim-plugins-web-developers-programmers/
 
-tmp_dir=`mktemp -u`.`date +%Y%m%d%H%M%S`
+tmp_dir=/tmp/`mktemp -u XXXXX`.`date +%Y%m%d%H%M%S`
 dest_dir=~/.vim
 
 
