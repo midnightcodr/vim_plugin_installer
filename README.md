@@ -14,6 +14,7 @@
 	Name: Snipmate, url: http://www.vim.org/scripts/download_script.php?src_id=11006, zip: snipMate.zip, verson: 0.83
 	Name: Surround, url: http://www.vim.org/scripts/download_script.php?src_id=12566, zip: surround.zip, verson: 1.90
 	Name: Matchit, url: http://www.vim.org/scripts/download_script.php?src_id=8196, zip: matchit.zip, verson: 1.13.2
+	Name: NERD_commenter, url: http://www.vim.org/scripts/download_script.php?src_id=14455, zip: nerdcommenter.zip, verson: 2.3.0
 
 ## Example output:
 	Downloading Snipmate plugin from http://www.vim.org/scripts/download_script.php?src_id=11006
@@ -27,6 +28,10 @@
 	Downloading Matchit plugin from http://www.vim.org/scripts/download_script.php?src_id=8196
 	Installing Matchit plugin to /Users/zc/.vim
 	Installation of Matchit is successful
+
+	Downloading NERD_commenter plugin from http://www.vim.org/scripts/download_script.php?src_id=14455
+	Installing NERD_commenter plugin to /Users/zc/.vim
+	Installation of NERD_commenter is successful
 
 ## Notes:
 	Tested working with the following OS:
